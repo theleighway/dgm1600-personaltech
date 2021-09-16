@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgb(227, 227, 227);
+    font-family: 'Exo 2', sans-serif;
+    
+}
+main {
+    background-color: rgb(150, 149, 149);
+    padding: 2%;
+    padding-bottom: 0;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: rgb(150, 149, 149);
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    border-bottom: solid gray;
+   
+}
+header img {
+    max-height: 50px;
+}
+header h1 {
+    padding-top: 4px;
+    padding-left: .5rem;
+}
+hr {
+    background-color: gray;
+}
+.about-me {
+    display: flex;
+    background-color: rgb(150, 149, 149); 
+}
+.profile-pic {
+    max-height: 200px;
+}
+.bio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+#namedate {
+    display: flex;
+    background-color: rgb(150, 149, 149);
+    justify-content: space-between;
+    position: relative;
+    bottom: 5px;
+    margin-left: 1rem;
+    
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+
+}
+figure {
+    width: 180px;
+    
+}
+#choose {
+    padding: .5rem .5rem 1.5rem .5rem;
+    background-color: gray;
+    margin-left: 1rem;
+
+}
+#choose h4 {
+    margin: 0 0 .5rem .5rem;
+}
+#choose ul {
+    position: relative;
+    right: 15px;
+}
+
+
+
+
+figure > img {
+    width: 180px;
+    height: 180px;
+    margin-top: 2rem;
+}
+figcaption {
+    text-align: center;
+    font-size: 1.25rem;
+    position: relative;
+    bottom: 30px;
+    background-color: rgba(138, 137, 136, .7);
+    padding: .25rem;
+    border-radius: .7rem;
+    color: white;
+}
+
+.excited {
+    margin-top: 1.5rem;
+}
+#sentance {
+    padding-bottom: 1rem;
+}
+#choice {
+    padding: 0.7rem;
+    background-color: gray;
+    
+}
+#choice h4 {
+    padding-bottom: .7rem;
+}
+
+#choice p {
+    padding-top: 1rem 0;
+    margin-bottom: 1rem;
+
+
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(150, 149, 149);
+    padding: 1rem;
+    
+    
+}
